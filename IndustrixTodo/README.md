@@ -16,7 +16,7 @@ This project demonstrates a complete full-stack solution with:
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 ### **Frontend**
 - React (Vite)
@@ -34,7 +34,7 @@ This project demonstrates a complete full-stack solution with:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 IndustrixTodo/
@@ -64,7 +64,7 @@ IndustrixTodo/
 
 ---
 
-# ⚙️ System Requirements
+# System Requirements
 - Node.js 16+
 - PostgreSQL 14+
 - Git
@@ -74,7 +74,7 @@ IndustrixTodo/
 
 ---
 
-# 🚀 BACKEND INSTALLATION & SETUP
+# BACKEND INSTALLATION & SETUP
 
 ### **1. Navigate to backend**
 ```
@@ -98,7 +98,7 @@ PORT=5000
 
 ---
 
-# 🗄️ APPLY DATABASE MIGRATIONS  
+# APPLY DATABASE MIGRATIONS  
 > This project uses **manual SQL migrations** (not sequelize-cli).  
 > Do **not** run: `npx sequelize-cli db:migrate`
 
@@ -127,7 +127,7 @@ backend/src/migrations/002_create_todos.down.sql
 
 ---
 
-# ▶️ Run Backend Server
+# Run Backend Server
 
 ### Development mode
 ```
@@ -146,7 +146,7 @@ http://localhost:5000
 
 ---
 
-# 💻 FRONTEND INSTALLATION & SETUP
+# FRONTEND INSTALLATION & SETUP
 
 ### 1. Navigate to frontend
 ```
@@ -170,7 +170,7 @@ http://localhost:5173
 
 ---
 
-# 🔌 API DOCUMENTATION
+# API DOCUMENTATION
 
 ## 🟦 TODOS
 
@@ -223,7 +223,7 @@ Retrieve all categories.
 
 ---
 
-# 🧱 DATABASE DESIGN QUESTIONS
+# DATABASE DESIGN QUESTIONS
 
 ## **1. What database tables did you create and why?**
 
@@ -279,7 +279,7 @@ CREATE INDEX idx_todos_completed ON "Todos"(completed);
 
 ---
 
-# 🧪 TECHNICAL DECISION QUESTIONS
+# TECHNICAL DECISION QUESTIONS
 
 ## **1. Responsive Design**
 - Ant Design Grid (Row, Col)
@@ -343,7 +343,7 @@ Context API chosen for:
 
 ---
 
-# 🧪 TESTING & QUALITY
+# TESTING & QUALITY
 
 ## **1. Unit Tests**
 Not implemented due to time constraints.
@@ -367,7 +367,7 @@ Recommended test areas:
 
 ---
 
-# ⭐ BONUS FEATURES IMPLEMENTED
+# BONUS FEATURES IMPLEMENTED
 - ✔ Advanced filtering (status, category, priority)  
 - ✔ Pagination  
 - ✔ Search  
@@ -380,3 +380,4 @@ Recommended test areas:
 
 # 🎉 Thank You!
 For improvements or additional features, feel free to reach out!
+
