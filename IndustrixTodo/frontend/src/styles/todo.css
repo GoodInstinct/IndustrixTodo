@@ -1,0 +1,23 @@
+.page-header {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.card-wrapper {
+  padding: 20px !important;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.search-bar {
+  margin-bottom: 16px;
+}
